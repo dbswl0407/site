@@ -6,13 +6,14 @@
 #banner {height: 550px;background: url(../img/banner-bg1.jpg) no-repeat center top;}
 #sbanner {border-top: 1px solid #efefef;}
 #select {background-color:#1d7abd;}
+#select2 {background-color:#1d7abd;}
+#select5 {background-color:#1d7abd;}
 #infor {}
 #ad {background: url(../img/ad_bg.jpg) no-repeat center top; position: relative; z-index: 1; background-size: cover;}
 #ad:before{content:''; width: 100%; height: 100%; background-color:rgba(0,0,0,0.7); position: absolute; left: 0; top:0;}
 #blog {}
 #site {background-color:#f8f9fa;}
 #footer {}
-#with {background-color:#1d7abd;}
 
 /* container */
 .container {width:1180px;height:inherit;/* background-color:rgba(0,0,0,0.5);*/ margin:0 auto;}
@@ -59,6 +60,27 @@
 .ie8 .select >div.simg3 {background:#2886ca url(../img/select_bg3_ie8.png) no-repeat 30px 230px;}
 .select >div h4 {font-size:18px;color: #fff;padding-bottom:20px;}
 .select >div p {font-size:15px;color: #fff;}
+
+/* select2 */
+.select2 {overflow:hidden;padding:70px 0;}
+.select2 h3 {float:left;width:33.333%;font-size:40px; color: #fff;}
+.select2 >div {float:left;width:25.8333%; margin-left:1.5%; padding:3%;height:300px;}
+.select2 >div.simg1 {background:#2886ca url(../img/select2_bg1.png) no-repeat 30px 30px;background-size:80px;}
+.select2 >div.simg2 {background:#2886ca url(../img/select2_bg2.png) no-repeat 30px 30px;background-size:90px;}
+.select2 >div h4 {font-size:18px;color: #fff;padding-bottom:20px; padding-top: 150px;}
+.select2 >div p {font-size:15px;color: #fff;}
+
+/* select5 */
+.select5 {overflow:hidden;padding:70px 0;}
+.select5 h3 {float:left;width:32.333%;margin-right:1.5%;font-size:40px; color: #fff;}
+.select5 >div {float:left;width:26.333%; margin-right:1.5%; margin-bottom: 1.5%;padding:3%;height:300px;}
+.select5 >div.simg1 {background:#2886ca url(../img/select5_bg1.png) no-repeat 30px 30px;background-size:80px;}
+.select5 >div.simg2 {background:#2886ca url(../img/select5_bg2.png) no-repeat 30px 30px;background-size:90px; margin-right: 0;}
+.select5 >div.simg3 {background:#2886ca url(../img/select5_bg3.png) no-repeat 30px 30px;background-size:90px;}
+.select5 >div.simg4 {background:#2886ca url(../img/select5_bg4.png) no-repeat 30px 30px;background-size:90px;}
+.select5 >div.simg5 {background:#2886ca url(../img/select5_bg5.png) no-repeat 30px 30px;background-size:90px; margin-right: 0;}
+.select5 >div h4 {font-size:18px;color: #fff;padding-bottom:20px; padding-top: 150px;}
+.select5 >div p {font-size:15px;color: #fff;}
 
 /* infor */
 .infor {padding:70px 0; text-align:center;}
@@ -202,15 +224,6 @@
 .table-style1 thead {border-bottom: 1px solid #9a9a9a; font-size: 15px;}
 .table-style1 tbody .t6 a {border: 1px solid}
 
-/* with */
-.with {overflow:hidden;padding:70px 0;}
-.with h3 {float:left;width: 30%;font-size:40px; color: #fff;}
-.with >div {float:left;width: 25%;background-color:#2886ca;margin-left:1.5%; padding:200px 30px 30px ;height: 150px;}
-.with .with1 {background:#2886ca url(../img/with_icon1.png) no-repeat 30px 30px;background-size:105px; }
-.with .with2 {background:#2886ca url(../img/with_icon2.png) no-repeat 30px 30px;background-size:105px;}
-.with a {display:inline-block;color: #fff;padding-bottom:20px;font-size: 20px;}
-.with a:hover {text-decoration: underline;}
-.with p{font-size:15px;color: #fff;}
 
 /* sh */
 .sh {text-align:center;padding: 70px 0;}
