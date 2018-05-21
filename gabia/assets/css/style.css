@@ -20,7 +20,10 @@
 #sub-banner.webh-bg {background: url(../img/webh-bg1.png) repeat-x center top; }
 #product-table {}
 #select2 {background-color:#1d7abd;}
+#select3 {border-bottom: 1px solid #efefef;}
+#select4 {border-bottom: 1px solid #efefef;}
 #select5 {background-color:#1d7abd;}
+#ad2 {background: url(../img/ad2_bg1.png) no-repeat center top;background-size: cover;}
 #infor2 {}
 
 /* container */
@@ -86,6 +89,31 @@
 .select2 >div h4 {font-size:18px;color: #fff;padding-bottom:20px; padding-top: 150px;}
 .select2 >div p {font-size:15px;color: #fff;}
 
+/* select3 */
+.select3 {padding: 70px 0;}
+.select3 h3 { font-size:40px; text-align: center;}
+.select3 .select-box {overflow: hidden;}
+.select3 .select-box >div {width:33.333%;float: left;text-align: center; padding-top: 100px;}
+.select3 .select-box >div.simg1 {background: url(../img/select3_bg1.png) no-repeat center ;}
+.select3 .select-box >div.simg2 {background: url(../img/select3_bg2.png) no-repeat center ;}
+.select3 .select-box >div.simg3 {background: url(../img/select3_bg3.png) no-repeat center ;}
+.select3 .select-box >div h4 {font-size:18px;padding-bottom:20px; padding-top: 150px;color: #333;}
+.select3 .select-box >div h4 a:hover {text-decoration: underline;}
+.select3 .select-box >div p {font-size:15px;color: #666;}
+
+/* select4 */
+.select4 {padding: 70px 0;}
+.select4 h3 { font-size:40px; text-align: center;}
+.select4 .select-box {overflow: hidden;}
+.select4 .select-box >div {width:33.333%;float: left;text-align: center; padding-top: 100px;}
+.select4 .select-box >div.simg1 {background: url(../img/select4_bg1.png) no-repeat center ;}
+.select4 .select-box >div.simg2 {background: url(../img/select4_bg2.png) no-repeat center ;}
+.select4 .select-box >div.simg2 h4:after {content:'i'; color: #1d7abd; border-radius: 1px solid #1d7abd;}
+.select4 .select-box >div.simg3 {background: url(../img/select4_bg3.png) no-repeat center ;}
+.select4 .select-box >div h4 {font-size:18px;padding-bottom:20px; padding-top: 150px;color: #333;}
+.select4 .select-box >div h4 a:hover {text-decoration: underline;}
+.select4 .select-box >div p {font-size:15px;color: #666;}
+
 /* select5 */
 .select5 {overflow:hidden;padding:70px 0;}
 .select5 h3 {float:left;width:32.333%;margin-right:1.5%;font-size:40px; color: #fff;}
@@ -137,6 +165,13 @@
 .ad .view {font-size: 16px; display: inline-block; margin-top: 50px; border:1px solid #fff; padding: 12px 42px; transition:all 0.3s ease;}
 .ad .view:hover {background-color: #fff; color: #000;}
 
+/* ad2 */
+.ad2 {padding:70px 0; text-align:center; z-index: 10; position: relative;}
+.ad2 h3 {font-size: 40px; padding-bottom: 20px; color:#fff;}
+.ad2 p {font-size: 17px; color:#fff; }
+.ad2 img {text-align: center;padding-top: 100px;}
+
+
 /* blog */
 .blog {padding:70px 0;}
 .blog h3 {font-size:34px; margin-bottom: 50px;}
@@ -163,6 +198,17 @@
 .blog .notice-wrap .nw-right ul {border-top:2px solid #6f6f6f; padding:20px; border-bottom:1px solid #e5e5e5; height: 145px;}
 .blog .notice-wrap .nw-right ul li {padding: 12px 0; font-size: 16px; color:#666;}
 .blog .notice-wrap .nw-right ul li span {background-color: #666; color:#fff; margin-right: 20px; padding: 5px 10px;}
+
+
+/* qna */
+.qna .qna-wrap {overflow:hidden;position: relative;padding: 90px 0;}
+.qna .qna-wrap .qna-box  h3 {font-size: 34px; margin-bottom: 20px; margin-right: 20px; display:inline-block;}
+.qna .qna-wrap .qna-box a.qna-more {font-size: 20px; color:#666;float: right;padding-top: 20px;padding-right: 10px;}
+.qna .qna-wrap .qna-box ul {border-top:2px solid #6f6f6f;}
+.qna .qna-wrap .qna-box li span {float: left;font-size: 16px;background-color: #1d7abd; border-radius: 50%; color: #fff;text-align: center;padding: 0 6px; margin: 0 10px;}
+.qna .qna-wrap .qna-box li {overflow:hidden; padding:20px 10px; border-bottom:1px solid #e5e5e5;}
+.qna .qna-wrap .qna-box li a {float: left; width: 80%; color:#666; font-size: 16px; } 
+
 
 /* site */
 .site {overflow:hidden;padding:70px 0;} 
